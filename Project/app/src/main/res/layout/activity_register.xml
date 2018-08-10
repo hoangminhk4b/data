@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:src="@drawable/city_blue"
+        android:layout_alignParentBottom="true"/>
+    <LinearLayout
+        android:id="@+id/abc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="H A T O X U"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="{TÍN ĐỒ HÀNG HIỆU}"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginBottom="15dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_user"
+                android:drawablePadding="@dimen/drawable_padding_input"
+                android:hint="Họ tên"
+                android:theme="@style/UnderlineColorInput"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="@dimen/drawable_padding_input"
+                android:hint="Email"
+                android:theme="@style/UnderlineColorInput"/>
+            <EditText
+                android:drawableLeft="@drawable/ic_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/drawable_padding_input"
+                android:theme="@style/UnderlineColorInput"
+                android:hint="Số điện thoại"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/drawable_padding_input"
+                android:theme="@style/UnderlineColorInput"
+                android:hint="Mật khẩu"
+                android:drawableLeft="@drawable/ic_pass"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tôi đồng ý với "
+                    android:textSize="18sp"/>
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dieu_khoan_su_dung_underline"/>
+            </LinearLayout>
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đăng ký"
+                android:textColor="@color/white"
+                android:background="@drawable/background_button_radius"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

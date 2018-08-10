@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Session 3"/>
+    <Button
+        android:id="@+id/btnSession4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Session 4"
+        android:layout_below="@id/btnLogin"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/btnSession5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Session 5"
+        android:layout_below="@id/btnSession4"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/btnSession6"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Session 6"
+        android:layout_below="@id/btnSession5"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/btnSession7"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Session 7"
+        android:layout_below="@id/btnSession6"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/btnSession8"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Session 8"
+        android:layout_below="@id/btnSession7"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        />
+
+</RelativeLayout>

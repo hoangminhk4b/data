@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="horizontal">
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="fitXY"
+        android:layout_alignParentLeft="true"/>
+        <RelativeLayout
+            android:id="@+id/rlProgress"
+            android:visibility="invisible"
+            android:layout_alignParentRight="true"
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+            <ProgressBar
+                android:id="@+id/process"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="8"
+                android:progressDrawable="@drawable/progressbar_draw_cycle"
+                android:background="@drawable/progressbar_cycle"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:id="@+id/tvValueProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    <Button
+        android:id="@+id/btndownload"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Down"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

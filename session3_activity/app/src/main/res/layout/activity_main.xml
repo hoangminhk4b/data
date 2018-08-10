@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:text="Hello World!"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/edUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    <Button
+        android:id="@+id/btnResult"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Result"
+        android:layout_weight="1"/>
+    <ListView
+        android:id="@+id/listview"
+        android:layout_weight="7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></ListView>
+</LinearLayout>
